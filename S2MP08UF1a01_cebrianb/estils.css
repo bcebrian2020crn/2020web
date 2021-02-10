@@ -1,0 +1,371 @@
+html {
+
+font-size: 100%;
+
+}
+
+body {
+
+  margin: 0;
+  font-family: Arial;
+
+}
+
+div {
+  height: 3.125rem;
+  background-repeat: no-repeat;
+  background-position: 25rem;
+
+
+}
+h1 {
+  margin:0;
+  font-size: 2.3rem;
+
+}
+
+li{
+  display: inline-block;
+  height: 1.875rem;
+  margin:0;
+  background-color: #EACEFE;
+  line-height: 2.19rem;
+  padding: 0.3125rem;
+}
+
+li:hover{
+  background-color: #CA7E86;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1, p{
+  width: 21.875rem;
+  padding: 1.5625rem;
+}
+
+p{
+  margin: 0;
+  padding: 0 1.5625rem;
+}
+
+img{
+  padding: 1.5625rem;
+}
+
+#primera{
+  height: 2.5rem;
+  margin-bottom: 38px;
+}
+
+#segona{
+  height: 34.375rem;
+  background-image:url(img/img-hero-full-list.png);
+
+}
+
+#tercera{
+  height: 40.0625rem;
+  background-image:url(img/allinone.jpg);
+
+}
+
+#quarta{
+  height: 31.25rem;
+  background-image:url(img/curator-short.png);
+
+}
+
+#cinquena{
+  height: 34.375rem;
+  background-image:url(img/img-hero-full-list.png);
+}
+
+#sisena{
+  height: 34.375rem;
+  background-image:url(img/mobile-share.png);
+
+}
+
+#setena{
+  height: 40.1875rem;
+  background-image:url(img/anywhere.png);
+}
+
+#vuitena{
+  height: 12.5rem;
+  text-align: center;
+
+}
+
+#boto {
+
+  height: 4.375rem;
+  width: 4.375rem;
+  position: fixed;
+  right: 6.25rem ;
+  bottom: 3.125rem;
+  border-radius: 2.1875rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+  text-align: center;
+  line-height: 5.625rem;
+  font-size: 3.875rem;
+  background-image: url(img/sources.png);
+  background-position: -14.375rem -1.1875rem;
+  opacity: 0.8;
+  color: white;
+
+}
+
+.blanca{
+  background-color: #FFF;
+
+}
+
+.verda{
+  background-color: #EACEFE;
+
+}
+
+.fosca{
+  background-color: #333;
+
+}
+
+.clara{
+  background-color: #EEECEE;
+
+}
+
+/* diseño para movil */
+
+@media screen and (max-width: 960px) {
+  .verda {
+    background-color: #EACEFE;
+
+  }
+
+  div {
+    background: none;
+  }
+
+  li{
+    display:block;
+    height: 1.875rem;
+    margin:0 0 0 -40px;
+    background-color: #CA7E86;
+    line-height: 2.19rem;
+    padding: 0.1125rem;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+
+  li:hover{
+    background-color: #EACEFE;
+  }
+
+  #primera{
+    height: 14.8rem;
+  }
+
+  *{
+  font-family: Arial;
+}
+
+ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+#setena{
+  height: 25.5rem;
+  background-image:url(img/anywhere.png);
+  background-size: 630px auto;
+  background-repeat: no-repeat;
+}
+
+#sisena{
+  height:25.5rem;
+  background-image:url(img/mobile-share.png);
+  background-size: 250px auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+#cinquena{
+  height: 25.5rem;
+  background-image:url(img/img-hero-full-list.png);
+  background-size: 480px auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#quarta{
+  height:25.5rem;
+  background-image:url(img/curator-short.png);
+  background-size: 530px auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#tercera{
+  height: 25.5rem;
+  background-image:url(img/allinone.jpg);
+  background-size: 330px auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+#segona{
+  height: 25.5rem;
+  background-image:url(img/img-hero-full-list.png);
+  background-size: 480px auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+h1 {
+  margin:0;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 10pt;;
+}
+
+#boto {
+
+  height: 3.8rem;
+  width: 3.8rem;
+  position: fixed;
+  right: 6.25rem ;
+  bottom: 3.125rem;
+  border-radius: 2.1875rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+  text-align: center;
+  line-height: 5.625rem;
+  font-size: 3.875rem;
+  background-image: url(img/sources.png);
+  background-position: -14.375rem -1.7rem;
+  opacity: 0.8;
+  color: white;
+
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover{
+  background: #CA7E86;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+input:checked ~ label {
+  background: white;
+}
+
+ul{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+
+}
+
+}
+
+/* diseño para imprimir */
+
+@media print{
+
+  body{
+  width: 210mm;
+  height:297mm;
+  background-color: white;
+
+
+  }
+
+  div{
+  width: 105mm;
+  float:left;
+  margin:0 auto;
+
+  }
+  h1{
+  font-size: 16pt;
+  margin:0;
+  }
+
+  #primera{
+  display: none;
+
+  }
+
+  #segona{
+    height: 80mm;
+    background-color: #CA7E86;
+
+  }
+
+  #tercera{
+    height: 80mm;
+
+  }
+
+  #quarta{
+    height: 80mm;
+
+  }
+
+  #cinquena{
+    height: 80mm;
+
+  }
+  #sisena{
+    height: 80mm;
+
+  }
+  #setena{
+    height: 80mm;
+    background-color: #CA7E86;
+
+  }
+
+  #vuitena{
+  display: none;
+  }
+
+  #boto{
+  display: none;
+  }
+
+  .blanca{
+    background-color: #EACEFE;
+
+    }
+
+}
