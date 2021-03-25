@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  padding:0;
+  background-image: url(img/fons.jpg);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+span{
+  color: grey;
+}
+
+.cap{
+  height: 589px;
+  width: 960px;
+  margin:0 auto;
+  background: transparent;
+  }
+
+.cos{
+    height: 780px;
+    width: 960px;
+    margin:0 auto;
+    perspective: 900px;
+  }
+
+h1, p{
+    margin:0 auto;
+  }
+
+  p{
+    color: grey;
+  }
+
+  h1{
+    text-align: center;
+    }
+
+.cap{
+    height: 589px;
+    width: 960px;
+    margin:0 auto;
+    background-color: transparent;
+  }
+
+.ficha{
+      height: 240px;
+      width: 300px;
+      margin:10px;
+      background-image: url(img/small/small_back.jpg);
+      background-repeat: no-repeat;
+      background-size: 300px 200px;
+      opacity: 0.5;
+      float: left;
+
+    }
+
+#pulp{
+  background-image: url(img/small/small_pulp.jpg);
+}
+
+#taxi{
+  background-image: url(img/small/small_taxi.jpg);
+}
+
+#gold{
+  background-image: url(img/small/small_bond.jpg);
+}
+
+#ghost{
+  background-image: url(img/small/small_ghost.jpg);
+}
+
+#bean{
+  background-image: url(img/small/small_bean.jpg);
+}
+
+#back{
+  background-image: url(img/small/small_back.jpg);
+}
+
+#rider{
+  background-image: url(img/small/small_rider.jpg);
+}
+
+#team{
+  background-image: url(img/small/small_team.jpg);
+}
+
+#breaking{
+  background-image: url(img/small/small_break.jpg);
+  }
+
+.ficha:hover{
+    opacity: 1;
+    transform-origin: left;
+    transform: rotateY(25deg);
+  }
+
+.ficha p{
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    top: 200px;
+  }
+
+.peu{
+    width: 960px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+.animacio{
+    height: 589px;
+    background-size: auto;
+    animation: diapos 20s infinite;
+  }
+
+@keyframes diapos{
+  0%{
+    background-image: url(img/ani/back.png);
+  }
+
+  11.1%{
+    background-image: url(img/ani/bean.png);
+  }
+
+  22.2%{
+    background-image: url(img/ani/bond.png);
+  }
+
+  33.3%{
+    background-image: url(img/ani/break.png);
+  }
+
+  44.4%{
+    background-image: url(img/ani/ghost.png);
+  }
+
+  55.5%{
+    background-image: url(img/ani/pulp.png);
+  }
+
+  66.6%{
+    background-image: url(img/ani/rider.png);
+  }
+
+  77.7%{
+    background-image: url(img/ani/taxi.png);
+  }
+
+  88.8%{
+    background-image: url(img/ani/team.png);
+  }
+
+  99.9%{
+    background-image: url(img/ani/rider.png);
+  }
+
+}
