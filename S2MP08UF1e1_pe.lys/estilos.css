@@ -1,0 +1,117 @@
+body{
+  margin: 60px;
+  font-family: Helvetica, sans-serif;
+  color: #FFF;
+  background-color: #222;
+}
+
+li{
+  list-style-type: none;
+  color: #CCC;
+}
+
+.barra{
+  height: 50px;
+  background-image: url("img/quasinegre.png");
+  background-size: 50px auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.barra img{
+  margin:10px;
+  border-radius:0;
+}
+
+.barra #nav{
+  margin:20px;
+  margin-top: -40px;
+}
+
+.barra #nav li{
+  float: left;
+  margin:0 10px;
+}
+
+.barra #social{
+  float: right;
+  margin:0;
+
+}
+
+.barra #social li{
+  float: right;
+
+}
+
+.ficha{
+  margin-left: 10px;
+  width: 175px;
+  float: left;
+}
+
+.barra a:hover{
+  text-decoration: none;
+}
+
+img{
+  border-radius:25px;
+}
+
+.ficha:hover{
+  opacity: 50%;
+}
+
+h2{
+  width: 100%;
+  clear: left;
+}
+
+h3{
+  width: 80px;
+  float: left;
+  margin:0;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+h4{
+  width: 80px;
+  float: left;
+  margin:0;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+h5{
+  width: 80px;
+  float: left;
+  margin:0;
+  line-height: 24px;
+  font-size: 11px;
+}
+
+.vista{
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
+@media screen and (max-width: 640px){
+
+    .ficha{
+      margin: 3%;
+      width: 43.5%;
+    }
+
+    #social{
+      display:none;
+    }
+
+}
