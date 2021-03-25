@@ -1,0 +1,409 @@
+/* Fuente-Dafont-TauladeContinguts */
+@font-face {
+    font-family: 'Myrlissa - Personal Use';
+    src: url('fonts/MyrlissaPersonalUse.eot');
+    src: url('fonts/MyrlissaPersonalUse.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyrlissaPersonalUse.woff2') format('woff2'),
+        url('fonts/MyrlissaPersonalUse.woff') format('woff'),
+        url('fonts/MyrlissaPersonalUse.ttf') format('truetype'),
+        url('fonts/MyrlissaPersonalUse.svg#MyrlissaPersonalUse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Fuente-Dafont-TauladeContinguts */
+/* Fuente-Dafont-Bolas */
+@font-face {
+    font-family: 'Please write me a song';
+    src: url('fonts/Pleasewritemeasong.eot');
+    src: url('fonts/Pleasewritemeasong.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Pleasewritemeasong.woff2') format('woff2'),
+        url('fonts/Pleasewritemeasong.woff') format('woff'),
+        url('fonts/Pleasewritemeasong.ttf') format('truetype'),
+        url('fonts/Pleasewritemeasong.svg#Pleasewritemeasong') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/* Fuente-Dafont-Bolas */
+
+      body{
+        line-height:10rem;
+        text-align:center;
+        font-size: 1.8rem;
+        margin: 0 auto;
+        background-image: url(fondobody/body3.jpg);
+        background-size: 40%;
+      }
+
+      .ficha{
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        margin:2rem;
+        line-height:12rem;
+        text-align:center;
+        border-radius:14rem;
+        background-color: white;
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+      h3{
+        line-height: 15rem;
+        margin:0;
+        display: inline;
+        color:black;
+        font-family: 'Please write me a song';
+      }
+/* hover-h3 */
+      .transparente:hover{
+        color: transparent;
+      }
+
+/* hover-h3 */
+
+    #a00{
+      background-image: url(img/a00.jpg);
+      background-size: 100%;
+      border: solid 5px #C1E6EF;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a01{
+      background-image: url(img/b04.png);
+      background-size: 100%;
+      border: solid 5px #EFE0C1;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a02{
+      background-image: url(img/a04.jpg);
+      background-size: 100%;
+      border: solid 5px #A5A6EA;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a02b{
+      background-image: url(img/flor2.jpg);
+      background-size: 100%;
+      border: solid 5px #EFC1D5;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a02c{
+      background-image: url(img/a03.jpg);
+      background-size: 100%;
+      border: solid 5px #D88686;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a03{
+      background-image: url(img/gotas.jpg);
+      background-size: 100%;
+      border: solid 5px #D3D3D3;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #a04{
+      background-image: url(img/a01.jpg);
+      background-size: 100%;
+      border: solid 5px #96DF9D;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b01{
+      background-image: url(img/a05.jpg);
+      background-size: 100%;
+      border: solid 5px #96C6DF;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b02{
+      background-image: url(img/estrella2.jpg);
+      background-size: 100%;
+      border: solid 5px #7396C2;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b03{
+      background-image: url(img/rombos.jpg);
+      background-size: 100%;
+      border: solid 5px #E8BD96;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b04{
+      background-image: url(img/b01.jpg);
+      background-size: 100%;
+      border: solid 5px #353535;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b05{
+      background-image: url(img/bolas.jpg);
+      background-size: 155%;
+      border: solid 5px #B98968;
+      background-repeat: no-repeat;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b06{
+      background-image: url(img/trebol1.jpg);
+      background-size: 100%;
+      border: solid 5px #D5E996;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #b07{
+      background-image: url(img/b07.png);
+      background-size: 100%;
+      border: solid 5px #B26C80;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #cara{
+      background-image: url(img/cara.jpg);
+      background-size: 100%;
+      border: solid 5px #F1A890;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #animacionflor{
+      background-image: url(img/animacionflor.png);
+      background-size: 100%;
+      border: solid 5px #21838C;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #cubs{
+      background-image: url(img/cubo.jpg);
+      background-size: 100%;
+      border: solid 5px #79E3DA;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #e3{
+      background-image: url(img/e32.jpg);
+      background-size: 158%;
+      background-position: center;
+      border: solid 5px black;
+      box-shadow: 4px 8px 10px -10px black;
+    }
+
+    #examen1{
+      background-image: url(img/examen1.gif);
+      background-size: 100%;
+      border: solid 5px black;
+      box-shadow: 4px 8px 10px -10px black;
+      margin-left: 35rem;
+    }
+
+  /* hover */
+
+    #a00:hover{
+      background-image: url(hover/a00.png);
+      background-size: 163%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #a01:hover{
+      background-image: url(hover/a01.png);
+      background-size: 165%;
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+    #a02:hover{
+      background-image: url(hover/a02.png);
+      background-size: 85%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #a02b:hover{
+      background-image: url(hover/a02b.png);
+      background-size: 90%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #a02c:hover{
+      background-image: url(hover/a02c.png);
+      background-size: 72%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #a03:hover{
+      background-image: url(hover/a03.png);
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #a04:hover{
+      background-image: url(hover/a04.png);
+      background-size: 199%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b01:hover{
+      background-image: url(hover/b01.png);
+      background-size: 95%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b02:hover{
+      background-image: url(hover/b02.png);
+      background-size: 93%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b03:hover{
+      background-image: url(hover/b03.png);
+      background-size: 46%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b04:hover{
+      background-image: url(hover/b04.png);
+      background-size: 85%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b05:hover{
+      background-image: url(hover/b05.png);
+      background-size: 95%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b06:hover{
+      background-image: url(hover/b06.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #b07:hover{
+      background-image: url(hover/b07.png);
+      background-size: 90%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #cara:hover{
+      background-image: url(hover/cara.png);
+      background-size: 88%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #animacionflor:hover{
+      background-image: url(hover/animacionflor.png);
+      background-size: 92%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #cubs:hover{
+      background-image: url(hover/cubs.png);
+      background-size: 92%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #e3:hover{
+      background-image: url(hover/e3.png);
+      background-size: 92%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #examen1:hover{
+      background-image: url(hover/examen1.png);
+      background-size: 92%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  /* hover */
+
+/* animaciones-TaulaContinguts-h1 */
+
+h1{
+  animation: intermitent 4s infinite alternate linear;
+  font-family: 'Myrlissa - Personal Use';
+  font-size: 65pt;
+  color: #660033;
+  text-shadow: 3px 3px 3px #dab3ff;
+  position: relative;
+  left: -7rem;
+}
+
+@keyframes intermitent {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+/* animaciones-TaulaContinguts-h1 */
+
+.contenedor{
+  height: 80rem;
+  width: 100rem;
+  background-color: transparent;
+  margin:0 auto;
+}
+
+.titular{
+  height: 10rem;
+  width: 120rem;
+  background: transparent;
+}
+
+.examens{
+  height: 5rem;
+  width: 120rem;
+  background: transparent;
+  margin:0 auto;
+}
+
+#carsandfilms{
+  color: white;
+}
+
+#cubos{
+  color: white;
+}
+
+#pelis{
+  color: white;
+}
+
+.rombo{
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  margin:1rem;
+  background-color: #660033;
+  box-shadow: 5px 3px 3px #dab3ff;
+  transform: rotate(45deg);
+}
+
+.separacio{
+  height: 5rem;
+  width: 100rem;
+  margin:0 auto;
+}
