@@ -31,6 +31,7 @@ float: left;
   tranform-origin:center;
   transform-style:preserve-3d;
   transform: translateZ (-100px);
+  transition: 1s;
 }
 
 .cub2 {
