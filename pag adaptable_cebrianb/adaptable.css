@@ -1,0 +1,33 @@
+#superior{
+  height: 3rem;
+  background:violet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#contingut {
+  height:;
+  background: orange;
+  padding: 1rem;
+}
+
+#inferior {
+  height: 3rem;
+  background: skyblue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+p{
+  background: white;
+  font-size: 3rem;
+  padding: 2rem;
+}
+body{
+  margin: 0;
+}
